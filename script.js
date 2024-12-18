@@ -22,6 +22,7 @@ class Slider {
         .map(
           (num) => `
           <div class="slider__slide">
+            <img class="slider__image" src="https://via.placeholder.com/600x400" alt="Slide ${num}">
             <p class="slider__caption">Slide ${num} Content</p>
           </div>
         `

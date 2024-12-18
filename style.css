@@ -30,7 +30,16 @@
     text-align: center;
     padding: 10px;
   }
-
+  
+  .slider__image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 60vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
   .slider__caption {
     font-size: 1.5rem;
     margin-top: 10px;
